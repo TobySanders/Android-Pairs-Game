@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:id="@+id/levelSelectLayout">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_LevelDownload_text"
+        android:id="@+id/button_LevelDownload"
+        android:onClick="levelDownloadOnClick"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner_LevelSelect_Sort"
+        android:spinnerMode="dropdown"
+        android:textAlignment="center"
+        android:layout_below="@+id/button_LevelDownload"
+        android:layout_alignRight="@+id/button_LevelDownload"
+        android:layout_alignEnd="@+id/button_LevelDownload"
+        android:layout_alignLeft="@+id/button_LevelDownload"
+        android:layout_alignStart="@+id/button_LevelDownload" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinner_LevelSelect_Sort"
+        android:id="@+id/layout_LevelSelect"
+        android:orientation="horizontal"/>
+
+</RelativeLayout>

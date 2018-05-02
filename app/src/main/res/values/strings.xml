@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Pairs</string>
+    <string name="button_Play_text">PLAY!</string>
+    <string name="button_Settings_Text">Settings</string>
+    <string name="text_Title_Text">PAIRS!</string>
+    <string name="button_LevelDownload_text">Download More Levels</string>
+    <string name="download_List_URL">http://www.hull.ac.uk/php/349628/08309/acw/</string>
+    <string name="text_LevelDownloadDialog_Text">Downloading Level</string>
+    <string name="text_score_label">Score:</string>
+    <string name="text_scorer_timer_label">Time Remaining:</string>
+    <string name="label_GameOver_Score">Score:</string>
+    <string name="button_GameOver_PlayAgain">Play Again</string>
+    <string name="button_GameOver_MainMenu">Main Menu</string>
+    <string name="text_listviewAdapter_label_Score">Score:</string>
+    <string name="text_listviewAdapter_label_Time">Time Remaining:</string>
+    <string name="checkBox_listviewAdapter_Completed">Level Completed</string>
+    <string name="text_listviewAdapter_label_Rows">Rows:</string>
+    <string name="text_listviewAdapter_label_Columns">Columns:</string>
+    <string name="text_Music">Music</string>
+    <string name="m_TextView_text">"Downloading level "</string>
+    <string name="m_TextView_dialog_text">"Downloading Extras for "</string>
+    <string name="text_GameOver_title_win">Congratulations!</string>
+    <string name="text_GameOver_title_lose">Better luck next time!</string>
+
+    <string-array name="sort_spinner_array">
+        <item>Score High->Low</item>
+        <item>Score Low->High</item>
+        <item>Rows High->Low</item>
+        <item>Rows Low->High</item>
+        <item>Columns High->Low</item>
+        <item>Columns Low->High</item>
+        <item>Name</item>
+        <item>Completed</item>
+        <item>Uncompleted</item>
+    </string-array>
+</resources>

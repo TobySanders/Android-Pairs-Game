@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="button_GameOver_PlayAgain">Juega de nuevo</string>
+    <string name="button_GameOver_MainMenu"> Menú principal</string>
+    <string name="button_LevelDownload_text"> Descargar más niveles</string>
+    <string name="button_Play_text">Jugar!</string>
+    <string name="button_Settings_Text">Ajustes</string>
+    <string name="checkBox_listviewAdapter_Completed"> Nivel completado</string>
+    <string name="label_GameOver_Score">Calificar:</string>
+    <string name="text_LevelDownloadDialog_Text">Nivel descargan</string>
+    <string name="app_name">El Pairs</string>
+    <string name="text_listviewAdapter_label_Columns">Columnas:</string>
+    <string name="text_listviewAdapter_label_Rows">Filas:</string>
+    <string name="text_listviewAdapter_label_Score">Calificar:</string>
+    <string name="text_score_label">Calificar:</string>
+    <string name="text_listviewAdapter_label_Time">Tiempo restante:</string>
+    <string name="text_scorer_timer_label">Tiempo restante:</string>
+
+    <string-array name="sort_spinner_array">
+        <item>Calificar Alta->Baja</item>
+        <item>Calificar Baja->Alta</item>
+        <item>Filas Alta->Baja</item>
+        <item>Filas Baja->Alta</item>
+        <item>Columnas Alta->Baja</item>
+        <item>Columns Baja->Alta</item>
+        <item>Nombre</item>
+        <item>Terminado</item>
+        <item>Incompleto</item>
+
+    </string-array>
+    <string name="text_Title_Text">PAIRS!</string>
+    <string name="download_List_URL">http://www.hull.ac.uk/php/349628/08309/acw/</string>
+    <string name="m_TextView_dialog_text">Extras para la descarga</string>
+    <string name="m_TextView_text"> nivel de la descarga</string>
+    <string name="text_GameOver_title_lose"> ¡Mejor suerte la próxima vez!</string>
+    <string name="text_GameOver_title_win"> ¡Felicitaciones!</string>
+    <string name="text_Music"> Música</string>
+</resources>

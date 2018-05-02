@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/text_score_label"
+        android:id="@+id/text_scorer_score_label"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/text_scorer_score"
+        android:text="0"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/text_scorer_score_label"
+        android:layout_toEndOf="@+id/text_scorer_score_label"
+        android:layout_marginLeft="20dp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/text_scorer_timer_label"
+        android:id="@+id/text_scorer_timer_label"
+        android:layout_below="@+id/text_scorer_score_label"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/text_scorer_timer"
+        android:text="0:00"
+        android:layout_alignTop="@+id/text_scorer_timer_label"
+        android:layout_toRightOf="@+id/text_scorer_timer_label"
+        android:layout_toEndOf="@+id/text_scorer_timer_label"
+        android:layout_marginLeft="20dp"
+        tools:ignore="HardcodedText" />
+</RelativeLayout>

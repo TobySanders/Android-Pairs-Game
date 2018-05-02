@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text=""
+        android:id="@+id/label_GameOver_LevelComplete"
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/label_GameOver_Score"
+        android:id="@+id/label_GameOver_Score"
+        android:layout_alignTop="@+id/text_GameOver_Score"
+        android:layout_alignLeft="@+id/label_GameOver_LevelComplete"
+        android:layout_alignStart="@+id/label_GameOver_LevelComplete" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/text_GameOver_Score"
+        android:layout_toRightOf="@id/label_GameOver_Score"
+        android:layout_below="@id/label_GameOver_LevelComplete"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_GameOver_PlayAgain"
+        android:id="@+id/button_GameOver_PlayAgain"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/label_GameOver_Score"
+        android:layout_marginTop="56dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_GameOver_MainMenu"
+        android:id="@+id/button_GameOver_MainMenu"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/button_GameOver_PlayAgain"/>
+</RelativeLayout>
